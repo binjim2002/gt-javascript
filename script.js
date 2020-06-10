@@ -45,13 +45,13 @@ if ( hasUpperCaseLetters) {
   // 2. Add if conditions for hasSpecialCharacters
   if ( hasspecialCharacters) {
     possibleCharacters = possibleCharacters.concat(specialCharacters)
-  }
+  } 
 
-  
 var newPassword = "";
  
   for (var i=0; i<length; i++){
     // 4. Run this loop Each time, grab a random number.
+    
     // 5. Use that number to pick a character from the possibleCharacters array
     // 6. Add it to a newPassword
   }
