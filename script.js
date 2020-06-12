@@ -51,12 +51,16 @@ var newPassword = "";
  
   for (var i=0; i<length; i++){
     // 4. Run this loop Each time, grab a random number.
-    
+    var randomCharacterIndex = Math.floor(Math.random()*possibleCharacters.length)
+    var randomCharacter = possibleCharacters[randomCharacterIndex]
+    console.log(randomCharacter)
+    newPassword += randomCharacter
+
     // 5. Use that number to pick a character from the possibleCharacters array
     // 6. Add it to a newPassword
   }
 // 7. Return the new string here, instead of the hardcoded value "newPassword"
-  return "newPassword"
+  return newPassword
 }
 
 function writePassword() {
